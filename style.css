@@ -1,0 +1,17 @@
+.absoluto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Asegura que la imagen esté sobre el canvas */
+}
+
+
+.absoluto2 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Asegura que la imagen esté sobre el canvas */
+}
